@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contanier {
+background-image: url(../imgs/back.jpg);
+background-size: cover;
+position: relative;
+height: 100vh;
+}
+/* div//1----------------------------------------------------------------------------------------------------- */
+.div1 {
+width:200px;
+height: 100px;
+border: 0px solid;
+background-image:url(../imgs/bird.png);
+background-size: cover;
+position: absolute;
+right: 0px;
+animation-name: change1;
+animation-duration: 2s ;
+animation-iteration-count: 1 ;
+animation-fill-mode: forwards;
+animation-timing-function: linear ;
+}
+@keyframes change1 {
+from {
+left: 0px;
+}
+to{
+left: 1100px;
+}
+}
+
+/*div//2 ------------------------------------------------------------------------ */
+
+.div2 {
+    width:200px;
+    height: 100px;
+    border: 0px solid;
+    background-image:url(../imgs/bird2.png);
+    background-size: cover;
+    position: absolute;
+    top: 100px;
+    right: 0px;
+    animation-name: change2;
+    animation-duration: 2s ;
+    animation-iteration-count: 1 ;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear ;
+    animation-delay: 2s;
+    }
+    @keyframes change2 {
+    from {
+    left: 1100px;
+    }
+    to{
+    left:0px;
+    }
+    }
+
+    /* div//3----------------------------------------------------------------------- */
+
+    /* .div3 {
+        width:200px;
+        height: 100px;
+        border: 0px solid;
+        background-image:url(../imgs/bird.png);
+        background-size: cover;
+        position: absolute;
+        left: 0px;
+        top: 200px;
+        animation-name: change3;
+        animation-duration: 2s ;
+        animation-iteration-count: 1 ;
+        animation-fill-mode: forwards;
+        animation-timing-function: linear ;
+        animation-delay: 4s;
+        }
+        @keyframes change3 {
+        from {
+        left: 0px;
+        }
+        to{
+        left:1100px;
+        }
+        } */
+
+        /* div//4 --------------------------------------------------------------------------------- */
+/* 
+        .div4 {
+            width:200px;
+            height: 100px;
+            border: 0px solid;
+            background-image:url(../imgs/bird2.png);
+            background-size: cover;
+            position: absolute;
+            top: 300px;
+            right: 0px;
+            animation-name: change4;
+            animation-duration: 2s ;
+            animation-iteration-count: 1 ;
+            animation-fill-mode: forwards;
+            animation-timing-function: linear ;
+            animation-delay: 6s;
+            }
+            @keyframes change4 {
+            from {
+            left: 1100px;
+            }
+            to{
+            left:0px;
+            }
+            } */
+
+            /* div//5------------------------------------------------------------------------- */
+/* 
+            .div5 {
+                width:200px;
+                height: 70px;
+                border: 0px solid;
+                background-image:url(../imgs/bird.png);
+                background-size: cover;
+                position: absolute;
+                left: 0px;
+                top: 280px;
+                animation-name: change5;
+                animation-duration: 2s ;
+                animation-iteration-count: 1 ;
+                animation-fill-mode: forwards;
+                animation-timing-function: linear ;
+                animation-delay: 8s;
+                }
+                @keyframes change5 {
+                from {
+                left: 0px;
+                }
+                to{
+                left:1100px;
+                }
+                } */
+                /* div//6-------------------------------------------------------------------------------- */
+
+                /* .div6 {
+                    width:200px;
+                    height: 70px;
+                    border: 0px solid;
+                    background-image:url(../imgs/bird2.png);
+                    background-size: cover;
+                    position: absolute;
+                    top: 350px;
+                    right: 0px;
+                    animation-name: change6;
+                    animation-duration: 2s ;
+                    animation-iteration-count: 1 ;
+                    animation-fill-mode: forwards;
+                    animation-timing-function: linear ;
+                    animation-delay: 10s;
+                    }
+                    @keyframes change6 {
+                    from {
+                    left: 1100px;
+                    }
+                    to{
+                    left:0px;
+                    }
+                    } */
+      /* div//7--------------------------------------------------------------------------------------------- */
+/* 
+            .div7 {
+                width:200px;
+                height: 60px;
+                border: 0px solid;
+                background-image:url(../imgs/bird.png);
+                background-size: cover;
+                position: absolute;
+                left: 0px;
+                top: 400px;
+                animation-name: change7;
+                animation-duration: 2s ;
+                animation-iteration-count: 1 ;
+                animation-fill-mode: forwards;
+                animation-timing-function: linear ;
+                animation-delay: 12s;
+                }
+                @keyframes change7 {
+                from {
+                left: 0px;
+                }
+                to{
+                left:1100px;
+                }
+                } */
+    /* div//8 ------------------------------------------------------------------------------------------------------------- */
+      
+
+    /* .div8{
+        width:200px;
+        height: 70px;
+        border: 0px solid;
+        background-image:url(../imgs/bird2.png);
+        background-size: cover;
+        position: absolute;
+        top: 470px;
+        right: 0px;
+        animation-name: change8;
+        animation-duration: 2s ;
+        animation-iteration-count: 1 ;
+        animation-fill-mode: forwards;
+        animation-timing-function: linear ;
+        animation-delay: 14s;
+        }
+        @keyframes change8 {
+        from {
+        left: 1100px;
+        }
+        to{
+        left:0px;
+        }
+        } */
